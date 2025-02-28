@@ -1,0 +1,31 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Local environment settings
+.env
+*.env.local
+*.env.development
+*.env.production
+
+# Sessions and authentication data
+sessions/
+
+# Logs
+logs/
+*.log
+debug.log
+error.log
+*.log.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Puppeteer/Chrome cache
+puppeteer/
+.cache/
